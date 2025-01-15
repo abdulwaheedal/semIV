@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>App Login</h2>
+        <form>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="password" required>
+            </div>
+
+            
+            <div class="input-group">
+                <label>
+                    <input type="checkbox" id="remember-me" name="remember-me"> Remember me
+                </label>
+            </div>
+
+            
+            <div class="input-group">
+                <label>Choose your role:</label>
+                <label>
+                    <input type="radio" id="user" name="role" value="user"> User
+                </label>
+                <label>
+                    <input type="radio" id="admin" name="role" value="admin"> Admin
+                </label>
+            </div>
+
+            <div class="input-group">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <p>Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+
+</body>
+</html>
